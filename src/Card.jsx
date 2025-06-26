@@ -8,8 +8,6 @@ return(
 <p className='cardtext'>I'm software engineer , this is my profile</p>
 <a href=""> <button className={styles.Button}>View me</button></a>
 </div>
-
 );
-
 }
  export default Card
