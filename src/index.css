@@ -1,30 +1,25 @@
-.card{
-    border: 1px solid hsl(0, 0%, 80%);
-    border-radius: 10px;
-    box-shadow: 5px 5px hsl(0, 0%, 0%, 0.1);
-    padding: 20px;
-    margin: 10px;
-    text-align: center;
-    max-width: 250px;
-    display: inline-block;
-    width: 20%;
-    height: 20%;
-}
-.card .cardclass{
-    max-width: 60%;
-    height: auto;
-    border-radius: 50%;
-    margin-bottom: 10px;
-     
-}
-.card .cardtittle{
+.counter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
-    color: hsl(0, 1%, 38%);
 }
-.card .cardtext{
- font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
-    color: hsl(0, 1%, 38%);
 
+.counter-button {
+    background-color: hsl(27, 100%, 13%);
+    border: 1px solid hsl(0, 0%, 2%);
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 0px 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 150px;height: 50px;
+    font-size: 1.5em;
+
+}
+
+.counter-button:hover {
+    background-color: hsl(0, 0%, 42%);
 }
