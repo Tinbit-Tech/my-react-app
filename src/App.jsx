@@ -1,7 +1,7 @@
-import List from './List.jsx';
+import Card2 from './Card2';
 function App() {
   return(
-    <List />
+    <Card2 />
   );
 }
 
