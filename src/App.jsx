@@ -1,7 +1,7 @@
-import Mycomponebt2 from './Mycomponebt2.jsx';
+import ColorPicker from './ColorPicker.jsx';
 function App() {
   return(
-    <Mycomponebt2 />
+    <ColorPicker />
   );
 }
 
