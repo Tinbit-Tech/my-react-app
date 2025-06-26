@@ -1,15 +1,15 @@
 import PropType from 'prop-types'
 function Student(props){
     return(
-<div className='Student'>
+<div className='Student'> 
     <p>Name: {props.name}</p>
     <p>Age: {props.age}</p>
-    <p>Student: {props.isStudent}</p>
+    <p>Student: {props.isStudent ? "yes" : "no"}</p>
 </div>
     );
-    // eslint-disable-next-line no-unreachable
-    Student.PropType = {
-        name:PropType.String,
+}
+    Student.propTypes = {
+        name: PropType.string,
         age: PropType.number,
         isStudent: PropType.bool,
     }
@@ -18,5 +18,5 @@ function Student(props){
          age: 2,
          isStudent: false,
     }
-}
+
 export default Student
