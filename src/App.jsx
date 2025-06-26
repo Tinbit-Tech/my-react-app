@@ -1,7 +1,7 @@
-import Card2 from './Card2';
+import ProfilepicEvent from './ProfilepicEvent.jsx';
 function App() {
   return(
-    <Card2 />
+    <ProfilepicEvent />
   );
 }
 
