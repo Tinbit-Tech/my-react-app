@@ -1,7 +1,7 @@
-import ColorPicker2 from './ColorPicker2.jsx';
+import Colorpic from './Colorpic.jsx';
 function App() {
   return(
-    <ColorPicker2 />
+    <Colorpic />
   );
 }
 

@@ -1,5 +1,5 @@
 import React,{useState}  from "react";
-function ColorPicker2() {
+function Colorpic() {
   const [color, setColor] = useState("#FFFFFF");
 
 function handleChange (event){
@@ -19,4 +19,4 @@ function handleChange (event){
   );
 }
 
-export default ColorPicker2;
+export default Colorpic;
