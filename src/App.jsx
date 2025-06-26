@@ -1,7 +1,7 @@
-import ProfilepicEvent from './ProfilepicEvent.jsx';
+import Mycomponent from './Mycomponent.jsx';
 function App() {
   return(
-    <ProfilepicEvent />
+    <Mycomponent />
   );
 }
 
