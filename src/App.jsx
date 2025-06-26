@@ -1,7 +1,7 @@
-import Colorpic from './Colorpic.jsx';
+import Updatelist from './Updatelist.jsx';
 function App() {
   return(
-    <Colorpic />
+    <Updatelist />
   );
 }
 
