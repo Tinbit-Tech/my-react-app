@@ -1,48 +1,40 @@
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+ToDoList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f0f0f0;}
-    .color-picker{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    margin-top: 100px;
 
-    }
-    h2{
-        margin: 50px;
-        font-size: 3rem;
-
-    }
-    .color-display{
-        width: 300px;
-        height: 300px;
-        border-radius: 50%;
-        margin-bottom: 20px;
-        border: 2px solid #000;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 2px;
-        transition:  0.25s ease;
-
-
-    }
-    .color-display p{
-        font-size: 2rem;
-        color: #646464;
-        font-weight: bold;
-    }
-    label{
-        font-size: 1.5rem;
-        margin-bottom: 10px;
-    }
-    input[type="color"]{
-        width: 75px;
-        height: 50px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: 0.25s ease;
-    }
+}
+h1{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+button{
+    padding: 10px 20px;
+    background-color: #ff0101;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 10px;
+}
+.add-button{
+    background-color: #00ba1f;
+    margin-bottom: 20px;
+}
+.add-button:hover{
+    background-color: #3c484b;
+    color: white;
+}
+.move-button{
+    background-color: #3bc770;
+    color: black;
+}
+.move-button:hover{
+    background-color: #d4d4d4;
+}
+.text{
+    flex: 1;
+}

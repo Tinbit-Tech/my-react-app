@@ -1,7 +1,7 @@
-import UpdateByParametrs from './UpdateByParametrs.jsx';
+import ToDoList from './ToDoList.jsx';
 function App() {
   return(
-    <UpdateByParametrs />
+    <ToDoList />
   );
 }
 
