@@ -11,9 +11,7 @@ function handleAddFood() {
 
 function handleRemoveFood(index) {
     setFoods(foods.filter((_, i) => i !== index));
-}
-
-  
+} 
 return(
     <div>
         <h2>Food List</h2>
@@ -24,10 +22,8 @@ return(
                 </li>)}
                       </ul>
                  <input type="text" id="foodInput" placeholder="enter food name"/>
-                    <button onClick={() => handleAddFood}>Add Food</button>
-               
-            
-       
+                    <button onClick={handleAddFood}>Add Food</button>
+
     </div>)
 }
 export default Updatelist

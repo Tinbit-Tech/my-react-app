@@ -1,7 +1,7 @@
-import Updatelist from './Updatelist.jsx';
+import UpdateByParametrs from './UpdateByParametrs.jsx';
 function App() {
   return(
-    <Updatelist />
+    <UpdateByParametrs />
   );
 }
 
