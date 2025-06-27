@@ -1,7 +1,7 @@
-import UseEffect from './UseEffect.jsx';
+import Digitalclock from './Digitalclock.jsx';
 function App() {
   return(
-    <UseEffect />
+    <Digitalclock />
   );
 }
 

@@ -1,4 +1,5 @@
-ToDoList{
+.Digitalclock{
+    background-color: #695c5c;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,35 +7,20 @@ ToDoList{
     margin-top: 100px;
 
 }
-h1{
-    font-size: 2.5rem;
+.Digitalclock h1{
+    font-size: 50px;
+    color: #333;
     margin-bottom: 20px;
+    text-align: center;
 }
-button{
-    padding: 10px 20px;
-    background-color: #ff0101;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1rem;
-    margin: 10px;
+.Digitalclock p{
+    font-size: 20px;
+    color: #666;
 }
-.add-button{
-    background-color: #00ba1f;
-    margin-bottom: 20px;
-}
-.add-button:hover{
-    background-color: #3c484b;
-    color: white;
-}
-.move-button{
-    background-color: #3bc770;
-    color: black;
-}
-.move-button:hover{
-    background-color: #d4d4d4;
-}
-.text{
-    flex: 1;
+.Digitalclock-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
