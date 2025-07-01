@@ -1,26 +1,4 @@
-.Digitalclock{
-    background-color: #695c5c;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 100px;
-
-}
-.Digitalclock h1{
-    font-size: 50px;
-    color: #333;
-    margin-bottom: 20px;
-    text-align: center;
-}
-.Digitalclock p{
-    font-size: 20px;
-    color: #666;
-}
-.Digitalclock-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
+/* index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
